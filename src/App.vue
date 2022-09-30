@@ -1,6 +1,5 @@
 <template>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <img alt="Vue logo" src="./assets/logo.png">
   
 </template>
 
@@ -10,8 +9,17 @@ import HelloWorld from './components/HelloWorld.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+},
+  // data(){
+  //   return {
+  //     chartData: {
+  //       Books: 24,
+  //       Magazine: 30,
+  //       Newspapers: 10
+  //     }
+  //   };
+  // }
 }
 </script>
 
