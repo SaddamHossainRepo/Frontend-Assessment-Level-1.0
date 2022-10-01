@@ -1,26 +1,14 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  
+  <MasterLayout />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MasterLayout from "./components/MasterLayout.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld,
-},
-  // data(){
-  //   return {
-  //     chartData: {
-  //       Books: 24,
-  //       Magazine: 30,
-  //       Newspapers: 10
-  //     }
-  //   };
-  // }
-}
+  name: "App",
+  components: { MasterLayout },
+};
 </script>
 
 <style>
@@ -30,6 +18,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  
 }
 </style>
